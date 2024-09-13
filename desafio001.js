@@ -1,11 +1,12 @@
+const numero = 12;
 let a = 0, b = 1, c = 0;
-while (b < num) {
+
+while (b < numero) {
     c = a; 
     a = b;
     b += c;
 }
 
-const numero = 12;
 
 if (b === numero) {
 console.log(`O número ${numero} pertence a sequência de Fibonacci.`);
